@@ -8,7 +8,6 @@ function App() {
 
   const handleToggle = () => {
     dispatch(toggleColor());
-    document.body.style.backgroundColor = color === 'black' ? 'white' : 'black';
   };
 
   return (
